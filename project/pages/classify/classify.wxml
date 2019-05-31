@@ -1,0 +1,2 @@
+<!--pages/classify/classify.wxml-->
+<component-topnav inner-title="分类"></component-topnav>

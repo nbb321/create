@@ -1,0 +1,23 @@
+<!--template.wxml-->
+<!-- 这是自定义组件的内部WXML结构 -->
+<view class="bottom">
+  <view class="left">
+    <view class="call">
+    <image src="../../images/kefu(1).png" class="icon"></image>
+    <view>联系客服</view>
+    </view>
+    <view class="come">
+    <image src="../../images/jin(1).png" class="icon"></image>
+    <view>进店</view>
+    </view>
+    <view class="shop">
+    <image src="../../images/shop(1).png" class="icon"></image>
+    <view> 购物车</view>
+    </view>
+  </view>
+ 
+  <view class="right">
+    <view class="add">加入购物车</view>
+    <view class="buy">立即购买</view>
+  </view>
+</view>

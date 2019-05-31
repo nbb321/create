@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+ <component-topnav inner-title="生活调味品" is-show-back="false"></component-topnav>  <!--不显示返回按钮-->
+ <view class="swiper">
+ <swiper
+  autoplay
+  indicator-dots="true"
+  indicator-color="rba(0,0,0,0.3)"
+  indicator-active-color="#F4E7B3"
+  circular
+ >
+  <block wx:for="{{swiper}}" wx:key="index">
+    <swiper-item bindtap="click" data-url="{{item}}">
+      <image src="{{item}}" />
+    </swiper-item>
+  </block>
+ </swiper>
+ </view>
+ <view class="search">
+ <text>位置</text>
+ <input placeholder='请搜索商品' bindfocus="search"/>
+ </view>
+
+   <view class="list"> 
+   <view class="items" wx:for="{{list}}" wx:key="index" bindtap="listClick" data-itemList="{{item}}">
+     <image src="{{item.img}}" class="pic"></image>
+     <view class="type">{{item.title}}  {{item.type}}</view>
+     <view class="price">￥{{item.price}}/斤 </view>
+   </view> 
+   
+    
+   </view>
+
+
+
+

@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<component-topnav inner-title="详情"></component-topnav>
+<view class="pic">
+<image src="{{itemlist.img}}"></image>
+</view>
+<view class="detail">
+ <view class="price"><text>￥</text>{{itemlist.price}}/斤</view>
+ <view class="con">放心食醋（{{itemlist.type}}{{itemlist.title}}）【牛氏博文醋业】山西特产老陈醋四代传承</view>
+ <view class="you">包邮</view>
+</view>
+<component-bottom></component-bottom>
+

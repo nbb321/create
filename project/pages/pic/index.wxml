@@ -1,0 +1,4 @@
+<image src="{{img}}" class="pic" bindtap="click"></image>
+<view class="mask"></view> -->
+<button class="btn" bindtap="click" src="{{click}}">点击进入</button>
+

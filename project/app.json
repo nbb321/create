@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/pic/index",
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/shopping/shopping",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/detail/detail",
+    "pages/template/topnav",
+    "pages/join/bottom",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#15ae67",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "./images/houseplant (1).png",
+      "selectedIconPath": "./images/houseplant.png"
+    },
+    {
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath":"./images/fenlei(1).png" ,
+      "selectedIconPath":"./images/fenlei.png"
+    },
+    {
+      "pagePath": "pages/shopping/shopping",
+      "text": "购物车",
+      "iconPath": "./images/shop(1).png",
+      "selectedIconPath": "./images/shop.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "./images/mine(1).png",
+      "selectedIconPath": "./images/mine.png"
+    }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+ 
+}

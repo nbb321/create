@@ -1,0 +1,2 @@
+<!--pages/shopping/shopping.wxml-->
+<component-topnav inner-title="购物车"></component-topnav>

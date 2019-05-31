@@ -1,0 +1,5 @@
+<!--pages/search/search.wxml-->
+<component-topnav inner-title="搜索"></component-topnav>
+<view class="search">
+<input placeholder='请搜索商品'/>
+</view>
